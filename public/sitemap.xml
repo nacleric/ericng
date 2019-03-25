@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nacleric.github.io/eric-test-site/categories/</loc>
+    <loc>https://nacleric.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nacleric.github.io/eric-test-site/</loc>
+    <loc>https://nacleric.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nacleric.github.io/eric-test-site/tags/</loc>
+    <loc>https://nacleric.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
