@@ -1,0 +1,8 @@
+baseURL = "https://nacleric.github.io"
+languageCode = "en-us"
+title = "Eric PT"
+theme = "hyde-bidoof"
+
+[params]
+    themeColor = "theme-base-0f"
+    layoutReverse = true
