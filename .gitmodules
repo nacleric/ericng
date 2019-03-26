@@ -1,0 +1,4 @@
+[submodule "nacleric.github.io"]
+	path = nacleric.github.io
+	url = git@github.com:nacleric/nacleric.github.io.git
+	branch = master

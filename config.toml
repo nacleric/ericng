@@ -2,6 +2,7 @@ baseURL = "https://nacleric.github.io/"
 languageCode = "en-us"
 title = "Eric PT"
 theme = "hyde-bidoof"
+publishDir = "nacleric.github.io"
 
 [params]
     themeColor = "theme-base-0f"
