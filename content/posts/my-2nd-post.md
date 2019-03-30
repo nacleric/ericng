@@ -1,7 +1,7 @@
 ---
 title: "OOP in js is weird"
 date: 2019-03-21T17:24:10-04:00
-draft: true
+draft: false
 ---
 
 I'm pretty sure most people can relate, the way I tend to learn a new language is to compare certain features to a language that I'm already familiar with. In my case, it was python's dictionary.

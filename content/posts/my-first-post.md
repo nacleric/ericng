@@ -1,7 +1,7 @@
 ---
 title: "Test Post"
 date: 2019-03-21T15:49:47-04:00
-draft: true
+draft: false
 ---
 
 Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
