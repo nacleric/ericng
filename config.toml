@@ -1,9 +1,0 @@
-baseURL = "https://nacleric.github.io/"
-languageCode = "en-us"
-title = "Eric Ng"
-theme = "hyde-bidoof"
-publishDir = "nacleric.github.io"
-
-[params]
-    themeColor = "theme-base-0f"
-    layoutReverse = true
