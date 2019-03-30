@@ -1,6 +1,6 @@
 baseURL = "https://nacleric.github.io/"
 languageCode = "en-us"
-title = "Eric PT"
+title = "Eric Ng"
 theme = "hyde-bidoof"
 publishDir = "nacleric.github.io"
 
