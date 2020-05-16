@@ -153,7 +153,6 @@ nav {
 }
 
 .project-item {
-  margin-left: 2%;
   margin-bottom: 20px;
 }
 
@@ -163,7 +162,6 @@ nav {
 }
 
 .project-item-title:hover {
-  /* text-decoration: underline; */
   color: var(--coralred);
 }
 
@@ -178,7 +176,6 @@ nav {
 .project-link-icon {
   width: 30px;
   height: 30px;
-  padding-top: 4px;
   padding-right: 20px;
 }
 
@@ -187,23 +184,24 @@ nav {
 }
 
 a.project-link-button {
-  display:inline-block;
-  padding:0.35em 1.2em;
-  border:0.1em solid var(--text-color);
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid var(--text-color);
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
   box-sizing: border-box;
-  text-decoration:none;
-  font-family:"Roboto", sans-serif;
-  font-weight:300;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: var(--text-color);
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
 }
 
 a.project-link-button:hover{
   color: var(--opposite-text);
-  background-color: var(--opposite-background);
+  background-color: var(--coralred);
+  border-color: var(--coralred);
 }
 
 .posts-section {
@@ -213,7 +211,6 @@ a.project-link-button:hover{
 }
 
 .posts-item {
-
 }
 
 .posts-item-title {
