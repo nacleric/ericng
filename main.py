@@ -81,6 +81,7 @@ def generate_posts(c: Config) -> None:
         print(f"[LOG] Generated {HTML_FILE}...")
         f.write(rendered_posts_html)
 
+
 #TODO: fix this; only works with 1 stylesheet
 def generate_styles(c: Config) -> None:
     """ Parses stylesheets in ./static and writes to ./build/stylesheets """
