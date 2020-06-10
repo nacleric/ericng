@@ -15,7 +15,7 @@ html, html[data-theme="light"] {
 html[data-theme="dark"] {
   --background-color: hsl(213, 33%, 21%);
   --text-color: hsl(0, 0%, 99%);
-  --text-color-fade: hsl(0, 0%, 99%, 0.800);
+  --text-color-fade: rgba(252, 252, 252, 0.897);
   --opposite-background: rgb(252, 252, 252);
   --opposite-text: hsl(213, 33%, 21%);
 }
@@ -137,20 +137,28 @@ nav {
 .banner-title {
   font-family: lato;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .banner-text {
+  font-family: raleway;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   width: 70%;
   color: var(--text-color-fade);
 }
 
+.project-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
 .project-section-title {
+  font-size: 2.5rem;
 }
 
 .project-item {
@@ -158,7 +166,7 @@ nav {
 }
 
 .project-item-title {
-  font-size: larger;
+  font-size: 1.75rem;
   display: inline;
 }
 
@@ -168,6 +176,10 @@ nav {
 
 .project-item p {
   color: var(--text-color-fade);
+}
+
+.project-item-text {
+  font-size: 1.2rem;
 }
 
 .project-link-icons {
@@ -186,13 +198,13 @@ nav {
 
 a.project-link-button {
   display: inline-block;
-  padding: 0.35em 1.2em;
+  padding: 0.35em 1em;
   border: 0.1em solid var(--text-color);
   margin: 0 0.3em 0.3em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: lato, sans-serif;
   font-weight: 300;
   color: var(--text-color);
   text-align: center;
@@ -252,7 +264,6 @@ a.project-link-button:hover{
 /* Responsive */
 @media all and (max-width: 800px) {
   body {
-    /* color: red; */
     margin: 0px;
   }
 
@@ -262,8 +273,8 @@ a.project-link-button:hover{
   }
 
   .jinja-container {
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .banner-text {

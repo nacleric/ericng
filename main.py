@@ -82,7 +82,7 @@ def generate_posts(c: Config) -> None:
         f.write(rendered_posts_html)
 
 
-#TODO: fix this; only works with 1 stylesheet
+# TODO: fix this; only works with 1 stylesheet
 def generate_styles(c: Config) -> None:
     """ Parses stylesheets in ./static and writes to ./build/stylesheets """
     stylesheets_folder = os.listdir(c.CSS_DIR)
