@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eric Ng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/stylesheets/styles.css">
+    <script>
+      let html = document.documentElement;
+      if (localStorage.getItem("isDark") === "true") {
+        html.setAttribute('data-theme', 'dark');
+      }
+    </script>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <span class="navbar-container">
+        <a class="navbar-item" href="/">Eric Ng</a>
+        <a style="margin-right: 10px"> | </a>
+        <a class="navbar-item" href="/posts.html">Blog</a>
+        <a class="navbar-item" href="https://drive.google.com/file/d/1CGJtltlm4IO3IBIecydRflE1mmjXF9G4/view?usp=sharing">Resume</a>
+        <i id="toggle-dark" class="navbar-item darkmode-icon" data-feather="sun"></i>
+      </span>
+    </nav>
+
+    <div class="jinja-container">
+      
+  <div class="posts-section"> 
+    
+      <div class="posts-item">
+        <a href="/posts/firstpost.html" class="posts-item-title"> Insert title here </a>
+        <p class="posts-item-intro"> Insert intro here <a style="color: var(--coralred)" href="/posts/firstpost.html">[Read More]</a></p>
+      </div>
+      <hr>
+    
+  </div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace()
+
+      let toggleDark = document.getElementById("toggle-dark")
+      toggleDark.addEventListener("click", () => {
+        let html = document.documentElement;
+        if (localStorage.getItem("isDark") === null) {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem("isDark", "true")
+        } else if (localStorage.getItem("isDark") === "false") {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem("isDark", "true")
+        } else if (localStorage.getItem("isDark") === "true") {
+          html.setAttribute('data-theme', 'light');
+          localStorage.setItem("isDark", "false")
+        }
+      })
+    </script>
+
+  </body>
+</html>
