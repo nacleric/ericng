@@ -102,7 +102,7 @@ nav {
 .banner-img {
   margin-left: auto;
   margin-right: auto;
-  height: 110%;
+  height: 100%;
   width: auto;
   border-radius: 50%;
 }
@@ -189,7 +189,7 @@ nav {
 .project-link-icon {
   width: 30px;
   height: 30px;
-  padding-right: 20px;
+  margin-left: 20px;
 }
 
 .project-link-icon:hover {
